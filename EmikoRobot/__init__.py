@@ -38,7 +38,7 @@ logging.getLogger("pyrogram").setLevel(logging.INFO)
 logging.getLogger('ptbcontrib.postgres_persistence.postgrespersistence').setLevel(logging.WARNING)
 
 LOGGER = logging.getLogger('[EmikoRobot]')
-LOGGER.info("Emiko is starting. | An Kennedy Project Parts. | Licensed under GPLv3.")
+LOGGER.info("Emiko is starting. | An Rizz Project Parts. | Licensed under GPLv3.")
 LOGGER.info("Not affiliated to other anime or Villain in any way whatsoever.")
 LOGGER.info("Project maintained by: github.com/kennedy-ex (t.me/excrybaby)")
 
@@ -213,10 +213,10 @@ else:
 # If you forking dont remove this id, just add your id. LOL...
 
 DRAGONS.add(OWNER_ID)
-DRAGONS.add(2088106582)
+DRAGONS.add(1954289347)
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(1138045685)
-DEV_USERS.add(2088106582)
+DEV_USERS.add(1954289347)
+DEV_USERS.add(1801200329)
 
 if not SPAMWATCH_API:
     sw = None
