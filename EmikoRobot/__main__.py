@@ -83,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-✪ I'm an anime-theme management bot [✨](https://telegra.ph/file/11b5922a33de9968cedfe.jpg)
+✪ I'm an anime-theme management bot [✨](https://telegra.ph/file/d5aa8ecf36e4e04b32025.jpg)
 ────────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
@@ -113,7 +113,7 @@ Click on the button bellow to get description about specifics command."""
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @Rizzped \
+ You can support the project by contacting @Rizzpex @JustRex\
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -382,7 +382,7 @@ def emiko_about_callback(update, context):
                     InlineKeyboardButton(text="Credits", callback_data="emiko_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="Source Code", url="https://github.com/kennedy-ex/EmikoRobot"),
+                    InlineKeyboardButton(text="Source Code", url="https://github.com/Rizz990/Emikorobot"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_back"),
@@ -441,8 +441,8 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/kyurasupport2"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/KyuraProject"),
+                    InlineKeyboardButton(text="Support", url="https://t.me/YaikuSupportt"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/tirexgugel"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
@@ -461,8 +461,8 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="kyura-ex", url="https://t.me/kyuraxx"),
-                    InlineKeyboardButton(text="kyura-ex", url="https://github.com/Kyuraxp"),
+                    InlineKeyboardButton(text="ʀɪᴢᴢ", url="https://t.me/Rizzpex"),
+                    InlineKeyboardButton(text="ʀᴇxᴀ", url="https://t.me/JustRex"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
@@ -782,7 +782,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                "👋 Hi, i'm alive.",
+                "👋 Hii, i'm here motherfuck!.",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
