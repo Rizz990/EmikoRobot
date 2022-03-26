@@ -316,7 +316,7 @@ def info(update: Update, context: CallbackContext):
         text += "\n\nThe Disaster level of this person is 'Soldier'."
         disaster_level_present = True
     elif user.id == 1801200329:
-         text += "\n\nOwner Of A Bot. Queen Of @Rizzped. Bot Name Inspired From 'JoJo'."
+         text += "\n\nOwner Of A Bot. Queen Of @Rizzpex. Bot Name Inspired From 'JoJo'."
          disaster_level_present = True
 
     try:
@@ -447,7 +447,7 @@ def set_about_me(update: Update, context: CallbackContext):
 def stats(update: Update, context: CallbackContext):
     stats = "<b>╔═━「 Current Yaiku Statistics 」</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
-    result += "\n<b>╘═━「 Powered By @Rizzped 」</b>"
+    result += "\n<b>╘═━「 Powered By @Rizzpex 」</b>"
     update.effective_message.reply_text(
         result,
         parse_mode=ParseMode.HTML, 
