@@ -15,10 +15,10 @@ PHOTO = "https://telegra.ph/file/ec08695709f8c692de1b5.jpg"
 async def awake(event):
   TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm Yaiku Robot.** \n\n"
   TEXT += "⚪ **I'm Working Properly** \n\n"
-  TEXT += f"⚪ **My Master : [Rizzu :3](https://t.me/xfelzy)** \n\n"
+  TEXT += f"⚪ **My Master : [Rizzu Senpai](https://t.me/xflyrzu)** \n\n"
   TEXT += f"⚪ **Library Version :** `{telever}` \n\n"
   TEXT += f"⚪ **Telethon Version :** `{tlhver}` \n\n"
   TEXT += f"⚪ **Pyrogram Version :** `{pyrover}` \n\n"
   TEXT += "**Thanks For Adding Me Here ❤️**"
-  BUTTON = [[Button.url("Help", "https://t.me/blezzrobot?start=help"), Button.url("Support", "https://t.me/BlezzSupportt")]]
+  BUTTON = [[Button.url("Help", "https://t.me/Zenkourobot?start=help"), Button.url("Support", "https://t.me/aboutrizzu")]]
   await tbot.send_file(event.chat_id, PHOTO, caption=TEXT,  buttons=BUTTON)
