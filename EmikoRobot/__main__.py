@@ -93,7 +93,7 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="About ʙʟᴇᴢᴢ x ʀᴏʙᴏᴛ​", callback_data="emiko_"),
+        InlineKeyboardButton(text="AAbout Zenkou Akaishi", callback_data="emiko_"),
     ],
     [
         InlineKeyboardButton(text="Get Help", callback_data="help_back"),
@@ -103,7 +103,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➗ Add ʙʟᴇᴢᴢ x ʀᴏʙᴏᴛ​ To Your Group ➗", url=f"t.me/{bu}?startgroup=new"),
+            text="➗ Add Zenkou Akaishi To Your Group ➗", url=f"t.me/{bu}?startgroup=new"),
     ],
 ]
 
@@ -113,7 +113,7 @@ Click on the button bellow to get description about specifics command."""
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @Rizzpex @JustRex\
+ You can support the project by contacting @xflyrzu @JustRex\
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
